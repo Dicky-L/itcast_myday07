@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <display-name></display-name>	
+  <servlet>
+    <servlet-name>CookieDemo01</servlet-name>
+    <servlet-class>cn.itcast.cookie.CookieDemo01</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CookieDemo03</servlet-name>
+    <servlet-class>cn.itcast.cookie.CookieDemo03</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SessionDemo01</servlet-name>
+    <servlet-class>cn.itcast.session.SessionDemo01</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SessionDemo02</servlet-name>
+    <servlet-class>cn.itcast.session.SessionDemo02</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>cn.itcast.shopping.IndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuyServlet</servlet-name>
+    <servlet-class>cn.itcast.shopping.BuyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListCartServlet</servlet-name>
+    <servlet-class>cn.itcast.shopping.ListCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.itcast.login.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>cn.itcast.login.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FormSubmitServlet</servlet-name>
+    <servlet-class>cn.itcast.form.FormSubmitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FormSevlet</servlet-name>
+    <servlet-class>cn.itcast.form.FormSevlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  
+  <servlet-mapping>
+    <servlet-name>CookieDemo01</servlet-name>
+    <url-pattern>/servlet/CookieDemo01</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>CookieDemo03</servlet-name>
+    <url-pattern>/servlet/CookieDemo03</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SessionDemo01</servlet-name>
+    <url-pattern>/servlet/SessionDemo01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SessionDemo02</servlet-name>
+    <url-pattern>/servlet/SessionDemo02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/servlet/IndexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyServlet</servlet-name>
+    <url-pattern>/servlet/BuyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListCartServlet</servlet-name>
+    <url-pattern>/servlet/ListCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/servlet/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FormSubmitServlet</servlet-name>
+    <url-pattern>/servlet/FormSubmitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FormSevlet</servlet-name>
+    <url-pattern>/servlet/FormSevlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
